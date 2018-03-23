@@ -1,7 +1,7 @@
 
 //the button onclick changes the title into the quiz
 function startQuiz() {
-    document.getElementById("adrian").style.visibility = "hidden";
+    document.getElementById("title").style.visibility = "hidden";
     document.getElementById("quiz").style.visibility = "visible";
 }
 
