@@ -28,5 +28,9 @@ function showResults() {
     };
     document.getElementById("right").innerHTML = "Correct: " + correct
     document.getElementById("wrong").innerHTML = "Incorrect: " + incorrect
-    
+}
+
+//button onclick refreshes the page to restart the entire quiz
+function reset() {
+    window.location.reload();
 }

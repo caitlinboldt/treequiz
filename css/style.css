@@ -51,7 +51,7 @@ input {
     color: red;
 }
 #btn2 {
-    margin: 20px 0 20px 90px;
+    margin: 10px;
 }
 #btn2:hover {
     background-color: darkgray;
