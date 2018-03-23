@@ -7,7 +7,7 @@ body {
 
 .main {
     background-image: url(../img/IMG_6113.jpg);
-    height: 900px;
+    height: 1000px;
 }
 
 /* Title */
@@ -27,6 +27,12 @@ h1 {
 
 #quiz {
     visibility: hidden;
+}
+h5 {
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 8px;
 }
 h6 {
     color:whitesmoke;
@@ -72,6 +78,9 @@ input {
  @media (max-width: 530px) {
      h1 {
          font-size: 60px;
+     }
+     h5 {
+         text-align: center;
      }
      h6{
          font-size: 18px;
