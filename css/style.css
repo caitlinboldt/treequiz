@@ -6,7 +6,7 @@ body {
 /* Main + Background */
 
 .main {
-    background-image: url(/Users/caitlinboldt/Desktop/codify/week09/week9project/img/IMG_6113.jpg);
+    background-image: url(../img/IMG_6113.jpg);
     height: 900px;
 }
 
