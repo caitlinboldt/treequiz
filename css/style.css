@@ -18,6 +18,10 @@ h1 {
     font-weight: 400;
     padding: 50px 10px 20px 10px;
 }
+#btn1:hover {
+    background-color: darkgray;
+    cursor: pointer;
+}
 
 /* Quiz */
 
@@ -25,7 +29,7 @@ h1 {
     visibility: hidden;
 }
 h6 {
-    color: whitesmoke;
+    color:whitesmoke;
     font-size: 22px;
     font-weight: 300;
     margin: 5px;
@@ -57,3 +61,19 @@ input {
     font-size: 30px;
     padding: 10px;
 }
+
+ /* Media Queries */
+
+ @media (max-width: 733px) {
+     .main {
+         height: 1100px;
+     }
+ }
+ @media (max-width: 530px) {
+     h1 {
+         font-size: 60px;
+     }
+     h6{
+         font-size: 18px;
+     }
+ }
