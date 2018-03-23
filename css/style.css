@@ -1,0 +1,59 @@
+body {
+    font-family: "poppins";
+    margin: 0;
+    padding: 0;
+}
+/* Main + Background */
+
+.main {
+    background-image: url(/Users/caitlinboldt/Desktop/codify/week09/week9project/img/IMG_6113.jpg);
+    height: 900px;
+}
+
+/* Title */
+
+h1 {
+    color: whitesmoke;
+    font-size: 80px;
+    font-weight: 400;
+    padding: 50px 10px 20px 10px;
+}
+
+/* Quiz */
+
+#quiz {
+    visibility: hidden;
+}
+h6 {
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 5px;
+}
+input {
+    margin: 10px 0 10px 0;
+    width: 300px;
+}
+.correct {
+    color: green;
+}
+.incorrect {
+    color: red;
+}
+#btn2 {
+    margin: 20px 0 20px 90px;
+}
+#btn2:hover {
+    background-color: darkgray;
+    cursor: pointer;
+}
+#right {
+    color: green;
+    font-size: 30px;
+    padding: 10px;
+}
+#wrong {
+    color: red;
+    font-size: 30px;
+    padding: 10px;
+}
