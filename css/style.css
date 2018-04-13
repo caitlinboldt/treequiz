@@ -7,6 +7,7 @@ body {
 
 .main {
     background-image: url(../img/IMG_6113.jpg);
+    background-repeat: no-repeat;
     height: 1300px;
 }
 
