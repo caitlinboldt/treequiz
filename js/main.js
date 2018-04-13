@@ -15,8 +15,8 @@ function showResults() {
     
     for(var i = 0; i < answers.length; i++) {
         const answer = answers[i];
-        let userInput = document.getElementById("a" + [i]).value
-        const question = document.getElementById("q" + [i]);
+        let userInput = document.getElementById("a" + i).value
+        const question = document.getElementById("q" + i);
         
         if(answer == userInput) {
             question.className = "correct";
