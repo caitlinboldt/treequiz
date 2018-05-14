@@ -18,7 +18,7 @@ function showResults() {
         let userInput = document.getElementById("a" + i).value
         const question = document.getElementById("q" + i);
         
-        if(answer == userInput) {
+        if(answer == userInput.toLowerCase()) {
             question.className = "correct";
             correct++;
         } else {
